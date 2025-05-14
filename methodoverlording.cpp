@@ -7,7 +7,7 @@ int main() {
     double num1, num2;
     char choice;
     
-    clrscr();  // Clears the screen in Turbo C++
+    clrscr(); 
 
     do {
         // Taking user input
@@ -16,19 +16,16 @@ int main() {
         cout << "Enter second number: ";
         cin >> num2;
 
-        // Performing calculations
         cout << "Addition: " << num1 + num2 << endl;
         cout << "Subtraction: " << num1 - num2 << endl;
         cout << "Multiplication: " << num1 * num2 << endl;
 
-        // Handling division by zero
         if (num2 != 0) {
             cout << "Division: " << num1 / num2 << endl;
         } else {
             cout << "Division by zero is not allowed!" << endl;
         }
 
-        // Asking user if they want to continue
         cout << "Do you want to perform another calculation? (y/n): ";
         cin >> choice;
 
