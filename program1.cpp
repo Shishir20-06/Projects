@@ -1,5 +1,5 @@
 #include <iostream>
-#include <conio.h>  // For clrscr() and getch()
+#include <conio.h>  
 
 using namespace std;
 
